@@ -1,0 +1,67 @@
+html, body{
+	height: 100%;
+}
+
+img{
+	max-width: 100%;
+
+}
+
+#cover{
+	background: #222 url("../Imagen/header.jpg") center center no-repeat;
+	background-size: cover;
+	color:black;
+	height: 50%;
+	text-align: center;
+	align-items: center;
+	display: flex;
+
+}
+
+#cover-texto{
+	width: 100%;
+}
+
+#cover-texto .form-inline{
+	padding: 5rem 0;
+}
+
+.contenido-seccion{
+	padding: 5rem 0;
+}
+
+.card-columns{
+	padding: 5rem 0;
+}
+
+#acerca-de{
+	background: #222 url("../Imagenes/12.jpg");
+	background-size: cover;
+}
+
+.texto-acerca-de{
+	position: left;
+	background: rgba(0,0,0,.9);
+	color:white;
+	padding: 1.875rem;
+}
+
+#footer{
+	background: #222;
+	color:white;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+}
+
+#acerda-de{
+
+	object-position: left;
+}
+
+.list-unstyled p{
+	margin: -1px;
+}
+
+.card-deck {
+	margin: 20px;
+}
